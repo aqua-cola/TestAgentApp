@@ -1,0 +1,6 @@
+<div *ngIf="enable" style='padding-top: 10px'>
+  <span>Продвинутый:</span>
+  <span [style]="trainMiddle === 'Введите корректное значение' ? 'color: red; font-weight: bold' : ''">
+    {{trainMiddle}}
+  </span>
+</div>

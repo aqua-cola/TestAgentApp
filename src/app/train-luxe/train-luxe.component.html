@@ -1,0 +1,6 @@
+<div *ngIf="enable" style='padding-top: 10px'>
+  <span>Люкс:</span>
+  <span [style]="trainLuxe === 'Введите корректное значение' ? 'color: red; font-weight: bold' : ''">
+    {{trainLuxe}}
+  </span>
+</div>
